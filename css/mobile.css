@@ -59,12 +59,12 @@
 .card-sumary > ul {
     display: grid;
     gap: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .card-sumary > ul > li {
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
