@@ -1,0 +1,118 @@
+.card-result {
+    background-color: var(--Light-royal-blue);
+    padding: 40px;
+    border-radius: 0 0 20px 20px;
+
+    text-align: center;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-result > h1 {
+    color: var(--Light-lavender);
+}
+
+.card-result > .circle {
+    background: linear-gradient(var(--Cobalt-blue), var(--Light-royal-blue));
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-result > .circle > p {
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--White);
+}
+
+.card-result > .circle > p > span {
+    font-size: 14px;
+    display: block;
+    color: var(--Light-slate-blue);
+}
+
+.card-result > .result > h2 {
+    color: var(--Pale-blue);
+    margin-bottom: 10px;
+}
+
+.card-result > .result > p {
+    color: var(--Light-lavender);
+}
+
+/* ********************* ********************* */
+
+.card-sumary {
+    padding: 30px;
+}
+
+.card-sumary > h1 {
+    margin-bottom: 30px;
+}
+
+.card-sumary > ul {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.card-sumary > ul > li {
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-sumary > ul > li > .title-item {
+    display: flex;
+    gap: 8px;
+}
+
+.card-sumary > ul > :nth-child(1) {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: var(--Light-red);
+}
+
+.card-sumary > ul > :nth-child(2) {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: var(--Orangey-yellow);
+}
+
+.card-sumary > ul > :nth-child(3) {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: var(--Green-teal);
+}
+
+.card-sumary > ul > :nth-child(4) {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: var(--Cobalt-blue);
+}
+
+.card-sumary > ul > li > .percentage {
+    display: flex;
+    gap: 5px;
+    color: var(--Dark-gray-blue);
+    font-weight: 700;
+}
+
+.card-sumary > ul > li > .percentage > :nth-child(2), 
+.card-sumary > ul > li > .percentage > :nth-child(3) {
+    opacity: 0.5;
+}
+
+.card-sumary > .btn {
+    background-color: var(--Dark-gray-blue);
+    color: var(--Pale-blue);
+    display: block;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 700;
+}
